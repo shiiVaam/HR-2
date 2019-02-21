@@ -12,7 +12,6 @@
 		BB0827B821707189008FE9C2 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0827B721707189008FE9C2 /* Global.swift */; };
 		BB18D4CC216DCDBC00CD105F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB18D4CB216DCDB900CD105F /* GoogleService-Info.plist */; };
 		BB9561702175E95400A52232 /* Leave.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95616F2175E95400A52232 /* Leave.swift */; };
-		BB9561722175F50000A52232 /* DataLeave.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9561712175F50000A52232 /* DataLeave.swift */; };
 		BBC42416216F29140056CB41 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC42415216F29130056CB41 /* User.swift */; };
 		BBD327682165CEF000D96A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD327672165CEF000D96A5D /* AppDelegate.swift */; };
 		BBD3276D2165CEF100D96A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD3276B2165CEF100D96A5D /* Main.storyboard */; };
@@ -20,13 +19,14 @@
 		BBD3277D2165CEFF00D96A5D /* HRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3277C2165CEFF00D96A5D /* HRTests.swift */; };
 		BBD327882165CEFF00D96A5D /* HRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD327872165CEFF00D96A5D /* HRUITests.swift */; };
 		BBD327962165DBA800D96A5D /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD327952165DBA800D96A5D /* SignInController.swift */; };
-		BBD3279A2165E2E600D96A5D /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD327992165E2E600D96A5D /* SplashController.swift */; };
 		BBD3279C2166312900D96A5D /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3279B2166312900D96A5D /* SignupController.swift */; };
 		BBD3279E21663E7900D96A5D /* ForgotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3279D21663E7900D96A5D /* ForgotController.swift */; };
 		BBDE30B721673EB6005D58D9 /* LeaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE30B621673EB6005D58D9 /* LeaveController.swift */; };
 		BBDE30B921673F04005D58D9 /* SelectedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE30B821673F04005D58D9 /* SelectedController.swift */; };
 		BBDE30BB21673F1F005D58D9 /* EditSendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE30BA21673F1F005D58D9 /* EditSendController.swift */; };
 		D9937984B4AFADEC655DB84A /* Pods_HR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4966883C0BB1507F2B4E27 /* Pods_HR.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EED67D70221EA36E0061FADE /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED67D6F221EA36D0061FADE /* SplashController.swift */; };
+		EED67D74221EA56F0061FADE /* DataLeave.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED67D73221EA56F0061FADE /* DataLeave.swift */; };
 		EEEF863021B5A24900C20DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEF862F21B5A24800C20DCB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +57,6 @@
 		BB0827B721707189008FE9C2 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		BB18D4CB216DCDB900CD105F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB95616F2175E95400A52232 /* Leave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leave.swift; sourceTree = "<group>"; };
-		BB9561712175F50000A52232 /* DataLeave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLeave.swift; sourceTree = "<group>"; };
 		BBC42415216F29130056CB41 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BBD327642165CEF000D96A5D /* HR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD327672165CEF000D96A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +70,6 @@
 		BBD327872165CEFF00D96A5D /* HRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRUITests.swift; sourceTree = "<group>"; };
 		BBD327892165CEFF00D96A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBD327952165DBA800D96A5D /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
-		BBD327992165E2E600D96A5D /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		BBD3279B2166312900D96A5D /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		BBD3279D21663E7900D96A5D /* ForgotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotController.swift; sourceTree = "<group>"; };
 		BBDE30B621673EB6005D58D9 /* LeaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveController.swift; sourceTree = "<group>"; };
@@ -81,6 +79,8 @@
 		CA4966883C0BB1507F2B4E27 /* Pods_HR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C997EB3C7F345CD7471815 /* Pods-HR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HR/Pods-HR.debug.xcconfig"; sourceTree = "<group>"; };
 		E461E37DBC9BAD75E9915B6C /* Pods-HRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HRUITests/Pods-HRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EED67D6F221EA36D0061FADE /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		EED67D73221EA56F0061FADE /* DataLeave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLeave.swift; sourceTree = "<group>"; };
 		EEEF862F21B5A24800C20DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +127,7 @@
 			children = (
 				BBC42415216F29130056CB41 /* User.swift */,
 				BB95616F2175E95400A52232 /* Leave.swift */,
-				BB9561712175F50000A52232 /* DataLeave.swift */,
+				EED67D73221EA56F0061FADE /* DataLeave.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,13 +161,13 @@
 				BB0827B621707043008FE9C2 /* Header.h */,
 				BBD327672165CEF000D96A5D /* AppDelegate.swift */,
 				BB0827B721707189008FE9C2 /* Global.swift */,
-				BBD327992165E2E600D96A5D /* SplashController.swift */,
 				BBD327952165DBA800D96A5D /* SignInController.swift */,
 				BBD3279B2166312900D96A5D /* SignupController.swift */,
 				BBD3279D21663E7900D96A5D /* ForgotController.swift */,
 				BBDE30B621673EB6005D58D9 /* LeaveController.swift */,
 				BBDE30B821673F04005D58D9 /* SelectedController.swift */,
 				BBDE30BA21673F1F005D58D9 /* EditSendController.swift */,
+				EED67D6F221EA36D0061FADE /* SplashController.swift */,
 				EEEF862F21B5A24800C20DCB /* Assets.xcassets */,
 				BBD3276B2165CEF100D96A5D /* Main.storyboard */,
 				BBD327702165CEFF00D96A5D /* LaunchScreen.storyboard */,
@@ -220,7 +220,6 @@
 				BBD327612165CEF000D96A5D /* Frameworks */,
 				BBD327622165CEF000D96A5D /* Resources */,
 				AED1B051195C731D8F010334 /* [CP] Embed Pods Frameworks */,
-				8DE588C24E8CAE5C72034140 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +238,6 @@
 				BBD327742165CEFF00D96A5D /* Sources */,
 				BBD327752165CEFF00D96A5D /* Frameworks */,
 				BBD327762165CEFF00D96A5D /* Resources */,
-				E0EAC71A557E77D75E927D27 /* [CP] Embed Pods Frameworks */,
-				198936468611CE45FA33A5C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,8 +257,6 @@
 				BBD3277F2165CEFF00D96A5D /* Sources */,
 				BBD327802165CEFF00D96A5D /* Frameworks */,
 				BBD327812165CEFF00D96A5D /* Resources */,
-				2EB3C2C0928FB2DC781FACAE /* [CP] Embed Pods Frameworks */,
-				EE1DB4D130BB8F8193207BC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,36 +343,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		198936468611CE45FA33A5C5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRTests/Pods-HRTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2EB3C2C0928FB2DC781FACAE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRUITests/Pods-HRUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		70BD183217DBE6539F99C8CF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,21 +361,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8DE588C24E8CAE5C72034140 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HR/Pods-HR-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AED1B051195C731D8F010334 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,7 +369,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HR/Pods-HR-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -427,7 +377,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -455,21 +405,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0EAC71A557E77D75E927D27 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRTests/Pods-HRTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E626874AA7163392050A0854 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,21 +423,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE1DB4D130BB8F8193207BC4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRUITests/Pods-HRUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -511,14 +431,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBD3279E21663E7900D96A5D /* ForgotController.swift in Sources */,
-				BBD3279A2165E2E600D96A5D /* SplashController.swift in Sources */,
 				BBD327962165DBA800D96A5D /* SignInController.swift in Sources */,
 				BB9561702175E95400A52232 /* Leave.swift in Sources */,
 				BBDE30B721673EB6005D58D9 /* LeaveController.swift in Sources */,
-				BB9561722175F50000A52232 /* DataLeave.swift in Sources */,
 				BBD327682165CEF000D96A5D /* AppDelegate.swift in Sources */,
+				EED67D74221EA56F0061FADE /* DataLeave.swift in Sources */,
 				BB0827B821707189008FE9C2 /* Global.swift in Sources */,
 				BBC42416216F29140056CB41 /* User.swift in Sources */,
+				EED67D70221EA36E0061FADE /* SplashController.swift in Sources */,
 				BBDE30B921673F04005D58D9 /* SelectedController.swift in Sources */,
 				BBDE30BB21673F1F005D58D9 /* EditSendController.swift in Sources */,
 				BBD3279C2166312900D96A5D /* SignupController.swift in Sources */,

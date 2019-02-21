@@ -8,7 +8,7 @@
 //
 
 import Foundation
-import FirebaseDatabase
+import Firebase
 
 class Leave{
     
