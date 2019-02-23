@@ -22,9 +22,7 @@ class ForgotController: Global,UITextFieldDelegate {
         
         emailADDreset.attributedPlaceholder = NSAttributedString(string: "Email Address",
                                                                attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        
-        
-        borderColor()
+                borderColor()
         
     }
     func borderColor(){

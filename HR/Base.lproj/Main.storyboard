@@ -109,7 +109,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="KpS-8a-IA1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -437,7 +437,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Oc9-LF-FVz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
                                 <state key="normal" title="SIGN UP">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -553,6 +553,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="yAc-8Y-e7z"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
                                 <state key="normal" title="SUBMIT">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -813,6 +814,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="5VL-ME-92R"/>
                                                     </constraints>
+                                                    <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
                                                     <state key="normal" title="SELECT">
                                                         <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -930,6 +932,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="cur-2I-CG9"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
                                         <state key="normal" title="SEND">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -1033,7 +1036,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Q7G-UL-vv8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="17"/>
                                 <state key="normal" title="LET'S START">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
